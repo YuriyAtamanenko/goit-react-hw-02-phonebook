@@ -1,0 +1,13 @@
+.label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input {
+  text-align: center;
+
+  font-size: 16px;
+  font-weight: 500;
+}

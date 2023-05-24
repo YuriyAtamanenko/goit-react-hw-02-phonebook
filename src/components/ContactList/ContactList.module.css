@@ -1,0 +1,28 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  margin: 6px 0;
+}
+
+.btn {
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid #b5b5b5;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #888888;
+}
