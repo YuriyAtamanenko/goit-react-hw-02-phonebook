@@ -18,8 +18,10 @@ class ContactForm extends Component {
 
     this.props.onSubmit(this.state);
 
-    this.state.name = '';
-    this.state.number = '';
+    this.setState({
+      name: '',
+      number: '',
+    });
   };
 
   render() {
