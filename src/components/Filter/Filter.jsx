@@ -1,18 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import css from './Filter.module.css';
+// import css from './Filter.module.css';
+import { Label, Input } from './Filter.styled';
 
 export default function Filter({ value, onChange }) {
   return (
-    <label className={css.label}>
+    <Label>
       Find contacts by name
-      <input
-        className={css.input}
-        type="text"
-        value={value}
-        onChange={onChange}
-      ></input>
-    </label>
+      <Input type="text" value={value} onChange={onChange}></Input>
+    </Label>
   );
 }
 
