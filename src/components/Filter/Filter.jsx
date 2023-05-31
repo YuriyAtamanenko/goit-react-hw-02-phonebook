@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import css from './Filter.module.css';
+
 import { Label, Input } from './Filter.styled';
 
 export default function Filter({ value, onChange }) {

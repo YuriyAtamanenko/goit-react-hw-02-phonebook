@@ -15,11 +15,12 @@ export const Contact = styled.p`
   margin: 6px 0;
 `;
 export const Button = styled.button`
+  display: flex;
   background-color: white;
   cursor: pointer;
   border: 1px solid #b5b5b5;
   &:hover,
   &:focus {
-    background-color: #888888;
+    background-color: #b5b5b5;
   }
 `;

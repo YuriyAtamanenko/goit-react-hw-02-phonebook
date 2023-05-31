@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import css from './ContactList.module.css';
+import { IoTrashOutline } from 'react-icons/io5';
+
 import { List, Item, Contact, Button } from './ContactList.styled';
 
 export default function ContactList({ contacts, onDeleteContact }) {
@@ -12,7 +13,7 @@ export default function ContactList({ contacts, onDeleteContact }) {
             {name}: {number}
           </Contact>
           <Button type="button" onClick={() => onDeleteContact(id)}>
-            Delete
+            <IoTrashOutline />
           </Button>
         </Item>
       ))}
